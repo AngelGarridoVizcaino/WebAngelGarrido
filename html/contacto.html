@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+<html lang="ES">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="icon" href="../img/logo.png">
+		<title>Contacto - ITs in the FranXX</title>
+	</head>
+	<header>
+	    <ul class="nav">
+	        <li><a href="../index.html">Inicio</a></li>
+	        <li><a href="instalaciones.html">Instalaciones</a></li>
+	        <li><a href="quienesomos.html">¿Quiénes somos?</a></li>
+	        <li><a href="servicios.html">Servicios</a></li>
+	        <li><a href="#">Productos</a>
+	            <ul>
+	                <li><a href="hosting.html">Hosting</a></li>
+	                <li><a href="diseñoweb.html">Diseño Web</a></li>
+	                <li><a href="equipamiento.html">Equipamiento</a></li>
+	            </ul>
+	        </li>
+	        <li><a href="contacto.html">Contacto</a></li>
+	    </ul>
+	</header>
+	<body>
+		<br>
+		<div id="contacto">
+			<p><h1>¿Dónde y cómo encontrarnos?</h1></p>
+			<p>Teléfono:91 211 56 73</p>
+			<p>Mail: <a href="#">itsinthefranxx@gmail.com</a></p>
+			<p>Ubicación:</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.2125924976895!2d-4.023710984620662!3d39.869475679432504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0bacdd0cbef3%3A0xb0e08ea6504b12ab!2sCalle%20San%20Ant%C3%B3n%2C%202%2C%2045003%20Toledo!5e0!3m2!1ses!2ses!4v1609623806672!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>	
+		<br>
+		<div id="form">
+			<form action="mailto:raul.rodriguez@universidadeuropea.es" method="POST" name="formularioFranXX">
+				<p>
+					<h1 align="center">Formulario de contacto</h1>
+				</p>
+				<p>
+					<label for="nombre">Nombre:</label>
+					<input type="text" name="nombre" required>
+				</p>
+				<p>
+					<label for="primer_apellido">Primer apellido:</label>
+					<input type="text" name="primer_apellido" required>
+				</p>
+				<p>
+					<label for="segundo_apellido">Segundo apellido:</label>
+					<input type="text" name="segundo_apellido" required>
+				</p>
+				<p>
+					<label for="pais">Pais:</label>
+					<input type="text" name="pais" required>
+				</p>
+				<p>
+					<label for="provincia">Provincia:</label>
+					<input type="text" name="provincia" required>
+				</p>
+				<p>
+					<label for="poblacion">Población:</label>
+					<input type="text" name="poblacion" required>
+				</p>
+				<p>
+					<label for="codigo_postal">Código postal:</label>
+					<input type="number" min="00000" max="99999" name="codigo_postal" required>	
+				</p>
+				<p>
+					<label for="calle">Calle:</label>
+					<input type="text" name="calle" required>
+				</p>
+				<p>
+					<label for="numero">Número:</label>
+					<input type="text" name="numero" required>
+				</p>
+				<p>
+					<label for="piso">Piso:</label>
+					<input type="text" name="piso" required>
+				</p>
+				<p>
+					<label for="email">Correo electrónico:</label>
+					<input type="email" name="email" required>
+				</P>
+				<p>
+					<label for="telefono">Telefono:</label>
+					<input type="tel" name="telefono" required>
+				</p>
+				<p>
+					<label for="motivo">Motivo:</label>
+					<select name="motivo" required>
+						<option>Consultoría</option>
+						<option>Desarrolo de Proyectos</option>
+						<option>Realización de Pedidos</option>
+						<option>Otros</option>
+					</select>
+				</p>
+				<p>
+					<label for="Comentarios">Comentarios:</label>
+					<textarea placeholder="Escriba aquí su comentario" name="Comentarios" cols="60" rows="4"></textarea>
+				</p>
+				<br>
+					<button type="submit">Enviar</button> 
+					<button type="reset">Borrar</button>
+			</form>
+		</div>
+	</body>
+</html>
